@@ -2,7 +2,7 @@
 # Setting the variables of on stage of the gear train,
 # every stage must be calculate separately:
 # VARIAVEIS ::
-filename="engrenagem E3.txt"; 
+filename="engrenagem.txt"; 
 id = fopen(filename, "w");
 #t = strftime ("%r (%Z) %A %e %B %Y", localtime (time ()))
 val = save_header_format_string ();
@@ -71,6 +71,8 @@ poison_g = 0.28;
 # Modulo de Young
 Ep = 30E6;
 Eg = 30E6;
+#===================================================================
+# DO NOT MODIFY BELOW HERE!!!
 #===================================================================
 # FATOR GEOMETRICO DE FLEXAO(J)
 # FATOR GEOMETRICO DE FLEXAO PARA phi = 20 e psi = 30
